@@ -1,3 +1,32 @@
+.inputBox {
+  display: flex;
+  direction: row;
+}
+
+::placeholder {
+  color: #999;
+}
+
 .searchInput {
-  width: 80%;
+  width: 75%;
+  font-size: 22px;
+  padding: 25px 80px;
+  border: none;
+  color: #777;
+  background: #f3f3f3;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  width: 15%;
+  cursor: pointer;
+  color: white;
+  text-align: start;
+  padding-left: 20px;
+  font-size: 20px;
+  background: linear-gradient(-120deg, #0c2170, #b11323);
 }

@@ -3,9 +3,13 @@ import "./style.css";
 
 const SearchInput = () => {
   return (
-    <>
-      <input className="searchInput" />
-    </>
+    <div className="inputBox">
+      <input
+        className="searchInput"
+        placeholder="Type the Course/University/Blog/News you are looking for"
+      />
+      <button className="btn">Search</button>
+    </div>
   );
 };
 
