@@ -1,0 +1,11 @@
+.left-block {
+  flex-basis: 20%;
+}
+
+.result-count {
+  padding: 10px;
+}
+
+.dropdown-block {
+  margin: 10px 0;
+}
