@@ -10,12 +10,12 @@
 }
 
 .nav li {
-  margin: 20px 10px;
+  margin: 15px 10px;
 }
 
 .nav li a {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   color: #777;
   text-align: center;
   padding: 10px 20px;

@@ -1,5 +1,37 @@
 .right-block {
   flex-basis: 65%;
-  /* height: 70vh;
-  background: violet; */
+}
+
+.mini-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  direction: row;
+  padding: 10px;
+  padding-left: 80px;
+}
+
+.mini-nav li {
+  margin: 0 10px;
+}
+
+.mini-nav li a {
+  display: block;
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+  padding: 7px 14px;
+  text-decoration: none;
+}
+
+.mini-nav li a.active {
+  background: linear-gradient(-120deg, #0c2170, #b11323);
+  color: white;
+}
+
+.mini-nav li a:hover {
+  background: linear-gradient(-120deg, #0c2170, #b11323);
+  color: white;
 }

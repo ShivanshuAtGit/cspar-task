@@ -4,10 +4,10 @@ import "./style.css";
 
 const Header = () => {
   return (
-    <ul class="nav">
+    <ul className="nav">
       <li>
-        <a class="active" href="#home">
-          <MdHome style={{ fontSize: 35 }} />
+        <a className="active" href="#home">
+          <MdHome style={{ fontSize: 30 }} />
         </a>
       </li>
       <li>

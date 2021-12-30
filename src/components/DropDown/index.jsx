@@ -5,8 +5,8 @@ import "./style.css";
 
 const DropDown = ({ open, label, list, handleDown, name, className }) => {
   return (
-    <div class={`dropdown ${className}`}>
-      <button class="dropBtn" onClick={handleDown} name={name}>
+    <div className={`dropdown ${className}`}>
+      <button className="dropBtn" onClick={handleDown} name={name}>
         <span>{label}</span>
         {open ? (
           <TiArrowSortedUp fontSize={22} />
@@ -14,13 +14,13 @@ const DropDown = ({ open, label, list, handleDown, name, className }) => {
           <TiArrowSortedDown fontSize={22} />
         )}
       </button>
-      <div class={`dropdown-content ${open ? "show" : "hide"}`}>
+      <div className={`dropdown-content ${open ? "show" : "hide"}`}>
         {list.map((item) => (
           <div key={item}>
-            <label class="container">
+            <label className="container">
               {item}
               <input type="radio" name="radio" />
-              <span class="checkmark">
+              <span className="checkmark">
                 <span className="checkmark-border"></span>
               </span>
             </label>
