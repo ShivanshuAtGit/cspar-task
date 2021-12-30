@@ -1,0 +1,36 @@
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  direction: row;
+  padding: 10px;
+  padding-left: 80px;
+}
+
+.nav li {
+  margin: 20px 10px;
+}
+
+.nav li a {
+  display: block;
+  font-size: 20px;
+  color: #777;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.nav li a.active {
+  padding: 5px 20px;
+  background: linear-gradient(-120deg, #0c2170, #b11323);
+  border-radius: 30px;
+  color: white;
+}
+
+.nav li a:hover {
+  background: linear-gradient(-120deg, #0c2170, #b11323);
+  border-radius: 30px;
+  color: white;
+}
