@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../Card";
 import "./style.css";
 
 const RightComponent = () => {
@@ -20,6 +21,11 @@ const RightComponent = () => {
           <a href="#">New</a>
         </li>
       </ul>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };

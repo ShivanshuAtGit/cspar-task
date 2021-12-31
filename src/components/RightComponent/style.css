@@ -1,5 +1,6 @@
 .right-block {
-  flex-basis: 65%;
+  flex-basis: 57%;
+  padding: 0 20px 0 40px;
 }
 
 .mini-nav {
@@ -10,11 +11,10 @@
   display: flex;
   direction: row;
   padding: 10px;
-  padding-left: 80px;
 }
 
 .mini-nav li {
-  margin: 0 10px;
+  margin: 0 20px 0 0;
 }
 
 .mini-nav li a {

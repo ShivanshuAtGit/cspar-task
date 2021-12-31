@@ -1,0 +1,11 @@
+.banner-block {
+  flex-basis: 15%;
+}
+
+.banner {
+  height: 50vh;
+  margin-top: 20px;
+  width: 80%;
+  background: linear-gradient(120deg, #b11323, #0c2170);
+  border-radius: 10px;
+}
