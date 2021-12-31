@@ -9,3 +9,13 @@
   background: linear-gradient(120deg, #b11323, #0c2170);
   border-radius: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .banner-block {
+    flex-basis: 100%;
+  }
+  .banner {
+    height: 20vh;
+    margin: 0 auto;
+  }
+}

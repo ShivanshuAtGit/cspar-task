@@ -7,6 +7,7 @@
   direction: row;
   padding: 10px;
   padding-left: 80px;
+  overflow-x: auto;
 }
 
 .nav li {

@@ -12,3 +12,12 @@
 .dropdown-block {
   margin: 10px 0;
 }
+
+@media screen and (max-width: 900px) {
+  .left-block {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 50%;
+  }
+}

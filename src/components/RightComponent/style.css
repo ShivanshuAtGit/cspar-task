@@ -35,3 +35,10 @@
   background: linear-gradient(-120deg, #0c2170, #b11323);
   color: white;
 }
+
+@media screen and (max-width: 900px) {
+  .right-block {
+    flex-basis: 70%;
+    padding: 0 20px;
+  }
+}

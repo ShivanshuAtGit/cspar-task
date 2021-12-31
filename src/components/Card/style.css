@@ -4,6 +4,8 @@
   margin: 20px 0;
   border-radius: 4px;
   overflow: hidden;
+  box-shadow: 0 0 10px rgba(15, 15, 15, 0.24);
+  background-color: #eee;
 }
 
 .card:hover .card-content-section {
