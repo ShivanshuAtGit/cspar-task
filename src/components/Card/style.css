@@ -2,10 +2,13 @@
   width: 100%;
   display: flex;
   margin: 20px 0;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .card:hover .card-content-section {
   background-color: #b11323;
+  color: white;
 }
 
 .card-image-block {
@@ -20,4 +23,56 @@
 .card-content-section {
   background-color: #eee;
   flex-basis: 70%;
+  color: #0c2170;
+  padding: 0 15px;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-time-p {
+  font-size: 10px;
+}
+
+.card-time-p span {
+  padding-left: 20px;
+}
+
+.card-description {
+  margin: 0;
+}
+
+.card-content {
+  flex-basis: 80%;
+  padding-right: 40px;
+}
+
+.card-read-section {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.read-more-tag {
+  background: linear-gradient(120deg, #b11323, #0c2170);
+  border-radius: 0 0 10px 10px;
+  color: white;
+}
+
+.read-more-tag p {
+  font-size: 12px;
+  width: 50%;
+  margin: 50% auto;
+}
+
+.card:hover .read-more-tag {
+  color: #b11323;
+  background: white;
+}
+
+.icon-style {
+  font-size: 14px;
+  margin: 5px;
 }
